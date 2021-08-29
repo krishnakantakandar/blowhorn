@@ -1,0 +1,29 @@
+.Info-Container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.Info-Container .InfoMain-container {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 90%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.InfoMain-container .InfoMain-Txt {
+  /* display: flex; */
+  /* justify-content: flex-start;
+  justify-content: space-between; */
+  text-align: left;
+}
+
+.InfoMain-container .InfoMain-Txt2 {
+  text-align: left;
+  margin-left: 20%;
+}

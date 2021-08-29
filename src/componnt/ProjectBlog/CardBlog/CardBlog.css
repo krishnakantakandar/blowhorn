@@ -1,0 +1,45 @@
+.CardBlog-Container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+}
+
+.CardBlog-Img {
+  height: 70%;
+  width: 100%;
+}
+
+.CardBlog-Action {
+  height: 25px;
+  width: 100px;
+  background-color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 67%;
+  left: 10%;
+  z-index: 5;
+}
+
+.CardDesc {
+  height: 30%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+.CardBlog-description {
+  height: 30%;
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.CardBlog-heading {
+  font-size: 27px;
+  font-weight: 900;
+  color: #fff;
+  margin-top: 0px;
+}
