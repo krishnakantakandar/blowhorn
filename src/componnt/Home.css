@@ -1,0 +1,130 @@
+.HomePage {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 85%;
+}
+
+.heading-grid {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+  display: grid;
+  grid-template-columns: 15% 60% 25%;
+}
+.details-home {
+}
+
+.company-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  font-weight: bolder;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar > ul {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-bar > ul > li {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(92, 92, 92);
+}
+li > img {
+  height: 20px;
+  width: 20px;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-sign-in {
+  /* text-decoration: none; */
+  outline: none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+  color: grey;
+}
+
+.btn-sign-up {
+  /* text-decoration: none; */
+  border-radius: 20px;
+  background-color: rgb(79, 70, 229);
+  height: 40px;
+  color: aliceblue;
+  width: 100px;
+  outline: none;
+  border: none;
+  margin-left: 20px;
+}
+/* .btn-sign-up :focus {
+  outline: none;
+} */
+
+.crafting {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.crafting p {
+  font-size: 50px;
+  font-weight: 1000;
+  padding: 0;
+  margin: 0;
+}
+
+.crafting-details p {
+  font-size: 15px;
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+.purchase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-purchase {
+  background-color: rgb(79, 70, 229);
+
+  border-radius: 20px;
+
+  height: 40px;
+  color: aliceblue;
+  width: 120px;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+}
+.purchase > p {
+  padding: 0;
+  margin-top: 6px;
+  color: grey;
+}
+.company {
+  margin-top: 100px;
+}
+.company img {
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+.company p {
+  padding: 0%;
+  margin: 0%;
+}
